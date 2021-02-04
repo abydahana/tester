@@ -15,7 +15,7 @@
 	"keywords": ["aksara", "tester"],
     "require": {
 		"php": "^7.3||^8.0",
-		"oomphinc/composer-installers-extender": "^2.*"
+		"oomphinc/composer-installers-extender": "^1.1"
 	},
 	"extra": {
 		"installer-paths": {
