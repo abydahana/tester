@@ -13,13 +13,13 @@
 		}
 	],
 	"keywords": ["aksara", "tester"],
-    "require": {
-		"php": "^7.3||^8.0",
-		"abydahana/aksara": "^4.2"
-    },
-	"extra": {
-		"installer-paths": {
-			"./": ["abydahana/aksara"]
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/abydahana/Aksara"
 		}
+	],
+    "require": {
+		"php": "^7.3||^8.0"
 	}
 }
