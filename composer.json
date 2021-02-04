@@ -1,0 +1,32 @@
+{
+    "name": "abydahana/tester",
+	"type": "project",
+	"description": "A project tester to extend to Aksara Core",
+	"homepage": "https://www.aksaracms.com",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Aby Dahana",
+			"email": "abydahana@gmail.com",
+			"homepage": "https://abydahana.github.io",
+			"role": "Developer"
+		}
+	],
+	"keywords": ["aksara", "tester"],
+    "require": {
+		"php": "^7.3||^8.0",
+        "codeigniter4/framework": "^4.1",
+        "mpdf/mpdf": "^8.0",
+        "halaxa/json-machine": "^0.5.0",
+        "facebook/graph-sdk": "^5.7",
+        "google/apiclient": "^2.8",
+        "midtrans/midtrans-php": "^2.3"
+    },
+	"extra": {
+		"installer-paths": {
+			"./": [
+				"abydahana/aksara"
+			]
+		}
+	}
+}
