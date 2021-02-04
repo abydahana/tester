@@ -15,18 +15,11 @@
 	"keywords": ["aksara", "tester"],
     "require": {
 		"php": "^7.3||^8.0",
-        "codeigniter4/framework": "^4.1",
-        "mpdf/mpdf": "^8.0",
-        "halaxa/json-machine": "^0.5.0",
-        "facebook/graph-sdk": "^5.7",
-        "google/apiclient": "^2.8",
-        "midtrans/midtrans-php": "^2.3"
+		"abydahana/aksara"
     },
 	"extra": {
 		"installer-paths": {
-			"./": [
-				"abydahana/aksara"
-			]
+			"./": ["abydahana/aksara"]
 		}
 	}
 }
