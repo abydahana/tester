@@ -1,6 +1,6 @@
 {
     "name": "abydahana/tester",
-	"type": "project",
+	"type": "aksara-ecosystem",
 	"description": "A project tester to extend to Aksara Core",
 	"homepage": "https://www.aksaracms.com",
 	"license": "MIT",
@@ -13,13 +13,13 @@
 		}
 	],
 	"keywords": ["aksara", "tester"],
-	"repositories": [
-		{
-			"type": "vcs",
-			"url": "https://github.com/abydahana/Aksara"
-		}
-	],
     "require": {
-		"php": "^7.3||^8.0"
+		"php": "^7.3||^8.0",
+		"composer/installers": "~1.0"
+	},
+	"extra": {
+		"installer-paths": {
+			"./": ["abydahana/aksara"]
+		}
 	}
 }
