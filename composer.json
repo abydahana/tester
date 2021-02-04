@@ -15,7 +15,7 @@
 	"keywords": ["aksara", "tester"],
     "require": {
 		"php": "^7.3||^8.0",
-		"abydahana/aksara"
+		"abydahana/aksara": "^4.2"
     },
 	"extra": {
 		"installer-paths": {
